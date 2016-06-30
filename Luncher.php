@@ -576,7 +576,7 @@ if($chat_id==$admin){
     $starttext = str_replace("/setstart","",$text);
             
     file_put_contents('msgs.txt',$starttext."
-.
+
 -!-@-#-$"."
 ".$pmembersiddd[1]);
 apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>"📝پیام خوش آمد گویی به 👇
