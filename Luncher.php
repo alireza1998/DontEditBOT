@@ -595,7 +595,7 @@ apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>"📝پیا�
     $starttext = str_replace("/setdone","",$text);
             
     file_put_contents('msgs.txt',$pmembersiddd[0]."
-.
+
 -!-@-#-$"."
 ".$starttext);
 apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>"📝پیام پیش فرض شما به 👇
