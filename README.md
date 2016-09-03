@@ -26,7 +26,7 @@ Example: https://api.telegram.org/bot2410172AGLGw1-P8Djir3ngaWDF-_Cf5Nzx-47Q/set
 ```
 
 # Troubleshooter 
-[alireza_PT](https://github.com/cliapi)
+[alireza_PT](https://telegram.me/cliapi)
 
 # Troubleshooter 
-[pmresan](https://github.com/alireza_pt_bot)
+[pmresan](https://telegram.me/alireza_pt_bot)
