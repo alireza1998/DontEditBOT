@@ -1,6 +1,6 @@
 <?php
 ob_start();
-define('API_KEY','269149317:AAHTDF6nIz-cdlW9f4het3skwMZpVLfneuk');
+define('API_KEY','269149317:AAF6rI4CyzCu_MNCzXEpHIlglrTix2J00_c');
 $admin = "159887854";
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -56,7 +56,7 @@ if (isset($update->edited_message)){
           ['text'=>'سازنده','url'=>'https://telegram.me/alireza_PT']
         ],
         [
-          ['text'=>'کانال ربات','url'=>'https://telegram.me/create_antispam_bot']
+          ['text'=>'کانال-ربات','url'=>'https://telegram.me/create_antispam_bot']
         ]
       ]
     ])
