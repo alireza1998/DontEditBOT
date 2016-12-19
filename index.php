@@ -1,6 +1,6 @@
 <?php
 ob_start();
-define('API_KEY','token');
+define('API_KEY','269149317:AAHTDF6nIz-cdlW9f4het3skwMZpVLfneuk');
 $admin = "159887854";
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -53,10 +53,10 @@ if (isset($update->edited_message)){
     'reply_markup'=>json_encode([
       'inline_keyboard'=>[
         [
-          ['text'=>'alireza_PT','url'=>'https://telegram.me/alireza_PT']
+          ['text'=>'سازنده','url'=>'https://telegram.me/alireza_PT']
         ],
         [
-          ['text'=>'CreateBOT','url'=>'https://telegram.me/create_antispam_bot']
+          ['text'=>'کانال ربات','url'=>'https://telegram.me/create_antispam_bot']
         ]
       ]
     ])
@@ -73,7 +73,7 @@ if (isset($update->edited_message)){
 }elseif(isset($update->message-> new_chat_member )){
 bot('sendMessage',[
       'chat_id'=>$chat_id,
-      'text'=>"سلام.به گروه خوش آمدید. "
+      'text'=>"به گروه خوش آمدید "
     ]);
 }
   
